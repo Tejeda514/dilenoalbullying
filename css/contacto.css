@@ -4,11 +4,17 @@
     padding: 30px 40px;
     flex-direction: column;
     align-items: center;
+    background-color: #f0f4f8;
+}
+.formulario-contacto{
+    background-color: var(--blanco);
+    padding: 30px 40px;
+    height: 100%;
 }
 
 .contacto-contenido {
-    height: 900px;
-    margin: 40px 60px;
+    height: 50%;
+    margin: 50px 100px;
     display: flex;
     width: 300px;
     flex-direction: column;
@@ -19,7 +25,8 @@
 .formulario-contacto h1 {
     color: var(--marron);
     font: var(--h2-bold);
-    justify-content: center;
+    text-align: center;
+    border-bottom:1px solid var(--negro);
 }
 
 .formulario-contacto input {
@@ -38,7 +45,6 @@
 }
 
 .formulario-contacto textarea {
-    display: flex;
     padding: 8px 16px;
     width: 100%;
     height: 90px;
@@ -49,7 +55,6 @@
 }
 
 .formulario-contacto button {
-    display: flex;
     background-color: var(--amarillo);
     padding: 12px 24px;
     width: 100%;
